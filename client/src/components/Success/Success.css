@@ -1,0 +1,15 @@
+.success-container{
+    height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.order-success{
+    height: 300px;
+    width: 300px;
+    background-image: url('../../../public/assets/icons/shopping-bag.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}

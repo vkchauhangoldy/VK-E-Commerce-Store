@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(173, 222, 253);
+}
+.game-container{
+    width: 80vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 70px);
+}
+
+.game-data{
+    border: 2px solid plum;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px  grey;
+    background-color: #fff;
+}
+.top-section{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.details{
+    margin-left: 30px;
+}
+
+.details>h3{
+    font-size: 3rem;
+    letter-spacing: 1.5px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.price{
+    font-size: 1.5rem;
+    margin: 20px 0;
+}
+
+.btn{
+    font-size: 1rem;
+    padding: 0.5em 1em;
+    background-color: rgb(70, 154, 250);
+    border: 1px solid grey;
+    border-radius: 5px;
+    color: white;
+}
+
+.btn:hover{
+    background-color: black;
+    font-weight: bold;
+}
+
+.description>h5{
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.description>p{
+    height: 80px;
+    font-size: 1rem;
+    overflow: scroll;
+    overflow-x: hidden;
+    background-color: rgb(231, 230, 230);
+    padding: 10px;
+}
